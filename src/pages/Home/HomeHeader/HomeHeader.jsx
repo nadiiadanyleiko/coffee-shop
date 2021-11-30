@@ -1,6 +1,6 @@
 import styles from './HomeHeader.module.scss'
 import Button from "../../../common/Button/Button";
-import logo from "../../../assets/beans-under.png";
+import logo from "../../../assets/beans_logo.png";
 
 const HomeHeader = () => {
     return (

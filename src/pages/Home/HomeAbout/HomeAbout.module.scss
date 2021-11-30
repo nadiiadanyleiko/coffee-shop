@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 15px 101px;
+
+  .wrapper {
+    max-width: 590px;
+    width: 100%;
+    text-align: center;
+
+    img {
+      margin: 20px 0 40px;
+    }
+
+    .text {
+      p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+
+        &:first-of-type {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.root {
+  background-image: url("../../assets/banner-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 260px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    color: #fff;
+    transform: translateY(30px);
+  }
+}

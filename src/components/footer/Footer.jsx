@@ -1,14 +1,15 @@
-import styles from './Header.module.scss';
+import styles from './Footer.module.scss';
 import { Link } from "react-router-dom";
-import logoHeader from '../../assets/coffee-beans.png'
+import logoFooter from '../../assets/beans_logo_black.png'
+import logoBeans from '../../assets/coffee-beans-black.png'
 
-const Header = () => {
+const Footer = () => {
     return (
         <div className={styles.root}>
             <ul className={styles.wrapper}>
                 <li>
-                    <Link to="/">
-                        <img src={logoHeader} alt={"logo"} className={styles.logo}/>
+                    <Link to="/home">
+                        <img src={logoBeans} alt={"logoBeans"} className={styles.logo}/>
                         <p>Coffee house</p>
                     </Link>
                 </li>
@@ -23,8 +24,9 @@ const Header = () => {
                     </Link>
                 </li>
             </ul>
+            <img src={logoFooter} alt={"logo"} className={styles.logo}/>
         </div>
     )
 }
 
-export default Header;
+export default Footer;

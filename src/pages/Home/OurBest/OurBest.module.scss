@@ -1,0 +1,22 @@
+.root {
+  background-image: url("../../../assets/our_best_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 15px 110px;
+
+  .container {
+    max-width: 802px;
+    width: 100%;
+
+    .wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 39px;
+    }
+  }
+}

@@ -3,16 +3,8 @@ import Header from "./components/header/Header";
 import { Routes, Route } from "react-router-dom";
 import Layout from './components/Layout/Layout';
 import HomePage from "./pages/Home/HomePage/HomePage";
-
-
-
-const About = () => {
-  return <div> About</div>
-}
-
-const Goods = () => {
-    return <div>Goods</div>
-}
+import CoffeePage from "./pages/Coffee/CoffeePage/CoffePage"
+import GoodsPage from "./pages/Goods/GoodsPage/GoodsPage"
 
 function App(props) {
   console.log(props)
@@ -20,8 +12,8 @@ function App(props) {
       <Layout>
           <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/coffee" element={<About />} />
-              <Route path="/goods" element={<Goods />} />
+              <Route path="/coffee" element={<CoffeePage />} />
+              <Route path="/goods" element={<GoodsPage />} />
           </Routes>
       </Layout>
   );

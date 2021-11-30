@@ -1,5 +1,6 @@
 import styles from './Layout.module.scss';
 import Header from "../header/Header";
+import Footer from "../footer/Footer";
 
 const Layout = ({ children }) => {
     console.log(children, 'children')
@@ -7,7 +8,7 @@ const Layout = ({ children }) => {
         <div className={styles.root}>
             <Header />
             {children}
-            <div>footer</div>
+            <Footer/>
         </div>
     )
 }
